@@ -4,7 +4,7 @@ A simple real-time TCP chat application written in C using sockets and multithre
 
 ## Features
 
-- TCP connection between two clients
+- TCP-based client-server communication
 - Real-time two-way messaging
 - Multithreading (send & receive simultaneously)
 - Clean CLI interface (no messy overlapping text)
@@ -36,7 +36,7 @@ clang -o client-b client-b.c -lpthread
 - Built for learning low-level networking and multithreading in C
 - Communication is plaintext (no encryption yet)
 - Optimized for Linux environments
-- Uses TCP, requiring a client-server model
+- Uses TCP, following a client-server communication model
 - `client-b` acts as the server (bind/listen)
 - `client-a` acts as the client (connect)
 
