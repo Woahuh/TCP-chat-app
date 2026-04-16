@@ -7,7 +7,7 @@ A simple real-time TCP chat application written in C using sockets and multithre
 - TCP-based client-server communication
 - Real-time two-way messaging
 - Multithreading (send & receive simultaneously)
-- Clean CLI interface (no messy overlapping text)
+- Clean CLI interface
 - Optional logging to file
 - Timestamped messages
 - Built-in commands system
